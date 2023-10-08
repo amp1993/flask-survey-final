@@ -1,0 +1,93 @@
+body {
+    
+    background-color: #FDCEDF;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+
+}
+.container {
+    text-align: center; 
+    background-color: whitesmoke;
+    /* box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.3); */
+    display: grid;
+    grid-template-rows: 15vh 15vh 10vh;
+    grid-template-columns: 1fr;
+    width: 1000px;
+    border-radius: 15px; 
+
+}
+
+
+h1 {
+    color:#FFABAB;
+    font-size: 55px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.109);
+
+    padding-top: 90px;
+
+    
+}
+
+p {
+    font-size: 35px;
+    padding: 10px;
+    margin-bottom: 80px;
+    display: grid;
+    /* background-color: #F9F5F6; */
+    place-items: center;
+    border-radius: 10px;
+    color: #464646;
+
+
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.575);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+
+}
+
+.form-container{
+    background-color: whitesmoke;
+    border-radius: 15px; 
+    text-align: center; 
+    display: grid;
+    grid-template-rows: 15vh 15vh 10vh;
+    grid-template-columns: 1fr;
+    width: 1000px;
+    border-radius: 15px; 
+}
+
+.form-container p{
+    text-align: center;
+    margin: 0;
+}
+
+#radio-input .form-container{
+    font-size: 5px;
+}
+.completion-page p{
+    font-size: 70px;
+    background-color: white;
+    width: 100%;
+    padding: 100px;
+    border-radius: 50px;
+
+
+}
+
+
+
+
